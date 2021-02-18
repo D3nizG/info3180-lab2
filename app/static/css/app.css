@@ -1,3 +1,53 @@
 body {
     padding-top: 5rem;
 }
+
+.card {
+    border: 1px solid  #0bbb0b;
+    border-radius: 5%;
+    width: 35vw;
+    margin: auto;
+}
+
+.top {
+    background-color: lightgreen;
+    padding: 20px;
+    text-align: center;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.bottom {
+    text-align: center;
+}
+
+.followersBar {
+    display: flex;
+    justify-content: center;
+}
+
+.followerStat {
+    margin: 15px;
+}
+
+.follow {
+    border: none;
+    background-color:  #0bbb0b;
+    padding: 5px 30px;
+    border-radius: 10px;
+    color: #ffff;
+    font-weight: bold;
+    margin: 10px;
+}
+
+p {
+    margin: 15px;
+}
+
+img {
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    width: 15vw;
+}
+

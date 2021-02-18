@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block main %}
+
+<div class = 'card'>
+<div class = 'top'>
+
+     <img
+        src="{{ url_for('static', filename='img/profilePic.svg') }}"
+        alt=""
+        class="profile-picture"
+      />
+    <h1> Deniz Gould </h1>
+    <h5>@d3nizG</h5>
+    <h5>St. Mary's, Antigua</h5>
+    <h5> Joined {{dateJoined}}</h5>
+
+</div>
+
+<div class = 'bottom'>
+
+    <p>I am an eager, fast learning computer science
+    student at the University of West Indies, interested in program development
+    and cybersecurity. Contact me if you would like to work on a project.</p>
+
+    <div class = 'followersBar'>
+        <div class = 'followerStat'>
+            <h5>Posts</h5>
+            <h4>56</h4>
+        </div>
+        <div class = 'followerStat'> 
+            <h5>Followers</h5>
+            <h4>234</h4>
+        </div>
+        <div class = 'followerStat'>
+            <h5>Following</h5>
+            <h4>120</h4>
+        </div>
+    </div>
+
+    <div>
+    <button class = 'follow'>Follow</button>
+    </div>
+
+</div>
+</div>
+{% endblock %}
